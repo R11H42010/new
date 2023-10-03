@@ -1,0 +1,344 @@
+<html lang="en" data-bs-theme="light"><head><script src="assets/js/color-modes.js"></script>
+    <!-- 先引入 jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 然后再引入 Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+  
+  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="張承睿">
+      <meta name="generator" content="Hugo 0.115.4">
+      <title>about-me mason45ok</title>
+  
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+      <link href="social.ico" rel="shortcut icon">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  
+      <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+  
+        .b-example-divider {
+          width: 100%;
+          height: 3rem;
+          background-color: rgba(0, 0, 0, .1);
+          border: solid rgba(0, 0, 0, .15);
+          border-width: 1px 0;
+          box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+  
+        .b-example-vr {
+          flex-shrink: 0;
+          width: 1.5rem;
+          height: 100vh;
+        }
+  
+        .bi {
+          vertical-align: -.125em;
+          fill: currentColor;
+        }
+  
+        .nav-scroller {
+          position: relative;
+          z-index: 2;
+          height: 2.75rem;
+          overflow-y: hidden;
+        }
+  
+        .nav-scroller .nav {
+          display: flex;
+          flex-wrap: nowrap;
+          padding-bottom: 1rem;
+          margin-top: -1px;
+          overflow-x: auto;
+          text-align: center;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+  
+
+        .bd-mode-toggle {
+          z-index: 1500;
+        }
+      </style>
+  
+      
+      <!-- Custom styles for this template -->
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="blog.css" rel="stylesheet">
+      <!-- 引入 Bootstrap 的 CSS 文件 -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+      <!-- 引入 Bootstrap 的 JavaScript 文件（放在 </body> 標籤之前） -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+      /* 直接在 HTML 文件中使用 CSS */
+      body {
+          background-color: rgb(202, 208, 240); /* 修改版面背景顏色為淺藍色 */
+      }
+  </style>
+    <body>
+  
+      <style>
+        /* 修改標題的樣式 */
+        .blog-header-logo {
+            color: #000000;  /* 修改顏色，使用 CSS 色碼或命名顏色 */
+            font-size: 24px;  /* 修改字型大小，可以使用 px、em、rem 等單位 */
+            font-family: 'monospace', monospace;  /* 修改字型，替換 'Your Chosen Font' 為你選擇的字型名稱 */
+            font-weight: bold;  /* 將字型設置為粗體 */
+            /* 可以根據需要添加其他樣式，例如文字陰影、粗體等 */
+        }
+    </style>
+    
+    <div class="container">
+        <header class="border-bottom lh-1 py-3">
+            <div class="row flex-nowrap justify-content-center align-items-center">
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#" style="font-family: 'Taipei Sans TC-B', sans-serif;">張承睿的部落格</a>
+                </div>
+            </div>
+        </header>
+    </div>
+    
+  
+    <style>
+      /* 共用的連結樣式 */
+      .nav-item.nav-link {
+          font-family: 'monospace', sans-serif;
+          font-size: 20px;
+          color: #000000
+          /* 你可以根據需要添加其他樣式 */
+      }
+  </style>
+  
+  <div class="nav-scroller py-1 mb-1 border-bottom">
+    <nav class="nav nav-underline justify-content-around">
+        <a class="nav-item nav-link link-body-emphasis" href="#">專題成果</a>
+        <a class="nav-item nav-link link-body-emphasis" href="https://www.facebook.com/nemo.chang.9">我的FB</a>
+        <a class="nav-item nav-link link-body-emphasis" href="https://www.instagram.com/gary01.13/">我的IG</a>
+        <a class="nav-item nav-link link-body-emphasis" href="http://master.pe.ntu.edu.tw/">我的系所</a>
+    </nav>
+  </div>
+  
+  </div>
+  
+  <main class="container">
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary d-flex ms-3">
+        <div class="col-lg-6 px-0 text-start">
+            <h1 class="display-4 fst-italic fw-bold fs-5" style="font-family: 'monospace', sans-serif;">關於我</h1>
+            <p class="lead my-3 fs-5" style="font-family: 'monospace', sans-serif; flex: 1;">我是一位新竹人<br>畢業於東海大學企管系<br>目前就讀台大運動設施與健康管理碩士學位學程<br>程式語言新手ING</p>
+        </div>
+        <div class="ms-auto">
+            <img src="https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.6435-9/78707100_1750561208408348_5394754317079019520_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=P_q8FUY-YIMAX9vFZFy&_nc_ht=scontent.ftpe7-1.fna&oh=00_AfC196LvBJbWio9FhwjYe7TNMarTXqHyxcS8GiE4Ekyk_Q&oe=6533AD7B" alt="我的大頭貼" style="width: 225px; height: 225px; border-radius: 50%;">
+        </div>
+    </div>
+
+
+  
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom" style="font-family: 'Taipei Sans TC-B', sans-serif;">
+          我的自傳
+        </h3>
+  
+        <article class="blog-post">
+          <h2 class="display-5 link-body-emphasis mb-1" style="font-family: 'Taipei Sans TC-B', sans-serif;">基本資料</h2>
+          <p class="blog-post-meta">September 17, 2023 by 張承睿</p>
+  
+          <p style="font-family: 'Taipei Sans TC-L', sans-serif;">本人畢業於東海大學企管系，目前正就讀於國立臺灣大學運動設施與健康管理碩士學位學程碩二，為了未來，打算在畢業之前增進程式設計能力</p>
+          <hr>
+          <p style="font-family: 'Taipei Sans TC-L', sans-serif;">目前的論文主題圍繞在系隊隊長領導力、系隊凝聚力以及系隊隊員滿意程度的議題</p>
+          <h2 style="font-family: 'Taipei Sans TC-B', sans-serif;">實習經驗</h2>
+          <blockquote class="blockquote" style="font-family: 'Taipei Sans TC-R', sans-serif;">
+            <p>艾盟仕股份有限公司</p>
+          </blockquote>
+          <p style="font-family: 'Taipei Sans TC-L', sans-serif;">我學習使用Excel、Google Analytics以及Shopify後臺進行數據分析，並且在兩個月內完成公司業績預測的專案</p>
+          <hr>
+          <blockquote class="blockquote" style="font-family: 'Taipei Sans TC-R', sans-serif;">
+            <p>明基健康股份有限公司</p>
+          </blockquote>
+          <p style="font-family: 'Taipei Sans TC-L', sans-serif;">我負責設計圖文，並與KOL合作協助曝光產品；我也協助官網後台的上架以及維護等等</p>
+          <h3 style="font-family: 'Taipei Sans TC-B', sans-serif;">個人能力</h3>
+          <ul>
+            <li style="font-family: 'Taipei Sans TC-L', sans-serif;">Adobe Photoshop</li>
+            <li style="font-family: 'Taipei Sans TC-L', sans-serif;">Adobe Illustrator</li>
+            <li style="font-family: 'Taipei Sans TC-L', sans-serif;">Canva</li>
+            <li style="font-family: 'Taipei Sans TC-L', sans-serif;">Google Analytics</li>
+            <li style="font-family: 'Taipei Sans TC-L', sans-serif;">HTML網頁設計</li>
+          </ul>
+    
+          <!-- <dl>
+            <dt>HyperText Markup Language (HTML)</dt>
+            <dd>The language used to describe and define the content of a Web page</dd>
+            <dt>Cascading Style Sheets (CSS)</dt>
+            <dd>Used to describe the appearance of Web content</dd>
+            <dt>JavaScript (JS)</dt>
+            <dd>The programming language used to build advanced Web sites and applications</dd>
+          </dl>
+          <h2>Inline HTML elements</h2>
+          <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+          <ul>
+            <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+            <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+            <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.</li>
+            <li>Citations, like <cite>— Mark Otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+            <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+            <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+          </ul>
+          <p>Most of these elements are styled by browsers with few modifications on our part.</p> -->
+          <!-- <h2>Heading</h2>
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <h3>Sub-heading</h3>
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <pre><code>Example code block</code></pre>
+          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+        </article> -->
+  
+        <!-- <article class="blog-post">
+          <h2 class="display-5 link-body-emphasis mb-1">Another blog post</h2>
+          <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+  
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <blockquote>
+            <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+          </blockquote>
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <h3>Example table</h3>
+          <p>And don't forget about tables in these posts:</p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Upvotes</th>
+                <th>Downvotes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Alice</td>
+                <td>10</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <td>Bob</td>
+                <td>4</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Charlie</td>
+                <td>7</td>
+                <td>9</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Totals</td>
+                <td>21</td>
+                <td>23</td>
+              </tr>
+            </tfoot>
+          </table>
+  
+          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+        </article>
+  
+        <article class="blog-post">
+          <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
+          <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+  
+          <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+          <ul>
+            <li>First list item</li>
+            <li>Second list item with a longer description</li>
+            <li>Third list item to close it out</li>
+          </ul>
+          <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+        </article>
+  
+        <nav class="blog-pagination" aria-label="Pagination">
+          <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+          <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
+        </nav> -->
+  
+      </article></div>
+  
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-body-tertiary rounded">
+            <h4 class="fst-italic" style="font-family: 'Taipei Sans TC-B', sans-serif;">簡介</h4>
+            <p class="mb-0" style="font-family: 'Taipei Sans TC-L', sans-serif;">姓名：張承睿<br>就讀學系:台大運動設施與健康管理碩士學位學程碩二<br>mail：r11h42010@ntu.edu.tw<br>phone：+886 965150905</p>
+          </div>
+  
+          <div>
+            <h4 class="fst-italic" style="font-family: 'Taipei Sans TC-B', sans-serif;">最新消息</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="http://master.pe.ntu.edu.tw/?cat=8">
+                  <img src="http://140.112.167.235/wp-content/uploads/2023/08/cropped-cropped-%E6%88%AA%E5%9C%96-2023-02-22-%E4%B8%8A%E5%8D%8811.01.53.png" width="96" height="96" alt="Placeholder Image">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0" style="font-family: 'Taipei Sans TC-R', sans-serif;">系所資訊</h6>
+                    <small class="text-body-secondary">國立台灣大學運動設施與健康管理碩士學位學程</small>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="https://github.com/R11H42010/Gary-Chang">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" width="96" height="96" alt="Placeholder Image">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0" style="font-family: 'Taipei Sans TC-R', sans-serif;">我的Github</h6>
+                    <small class="text-body-secondary">Gary Chang</small>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+          <!-- <div class="p-4">
+            <h4 class="fst-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="#">March 2021</a></li>
+              <li><a href="#">February 2021</a></li>
+              <li><a href="#">January 2021</a></li>
+              <li><a href="#">December 2020</a></li>
+              <li><a href="#">November 2020</a></li>
+              <li><a href="#">October 2020</a></li>
+              <li><a href="#">September 2020</a></li>
+              <li><a href="#">August 2020</a></li>
+              <li><a href="#">July 2020</a></li>
+              <li><a href="#">June 2020</a></li>
+              <li><a href="#">May 2020</a></li>
+              <li><a href="#">April 2020</a></li>
+            </ol>
+          </div> -->
+  
+          <div class="p-4">
+            <h4 class="fst-italic" style="font-family: 'Taipei Sans TC-B', sans-serif;">聯絡我</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://www.instagram.com/gary01.13/">instagram</a></li>
+              <li><a href="https://www.facebook.com/nemo.chang.9">Facebook</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+      
+  </body></html>
